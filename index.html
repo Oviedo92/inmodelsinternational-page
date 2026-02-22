@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IN Models International | Agencia de Talentos</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f172a',
+                        secondary: '#4f46e5',
+                        accent: '#fbbf24'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+<nav class="fixed w-full z-50 top-0 bg-primary/90 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+            
+      <div class="flex-shrink-0 flex items-center">
+    <a href="#inicio" class="flex items-center gap-3 group">
+        <img 
+            src="assets/img/ICON-international.jpg" 
+            alt="Icono IN Models" 
+            class="h-10 md:h-14 w-auto rounded-md object-contain transition-transform duration-300 group-hover:scale-105"
+        >
+        
+        <div class="flex flex-col leading-none">
+            <span class="text-white text-lg md:text-xl font-bold tracking-tighter uppercase italic">
+                IN <span class="text-secondary">Models</span>
+            </span>
+            <span class="text-gray-400 text-[10px] md:text-xs tracking-[0.2em] uppercase font-light">
+                International
+            </span>
+        </div>
+    </a>
+</div>
+
+            <div class="hidden md:block">
+                <div class="ml-10 flex items-center space-x-4 lg:space-x-8">
+                    <a href="#inicio" class="text-gray-300 hover:text-white px-2 py-2 text-sm font-medium transition-colors">Inicio</a>
+                    <a href="#nosotros" class="text-gray-300 hover:text-white px-2 py-2 text-sm font-medium transition-colors">Nosotros</a>
+                    <a href="#formacion" class="text-gray-300 hover:text-white px-2 py-2 text-sm font-medium transition-colors">Formación</a>
+                    <a href="#galeria" class="text-gray-300 hover:text-white px-2 py-2 text-sm font-medium transition-colors">Galería</a>
+                    <a href="#contacto" class="text-gray-300 hover:text-white px-2 py-2 text-sm font-medium transition-colors">Contacto</a>
+                    
+                    <a href="#inscripcion" class="bg-secondary text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-indigo-700 transition-all shadow-lg hover:shadow-indigo-500/20 active:scale-95">
+                        Inscribirme
+                    </a>
+                </div>
+            </div>
+
+            <div class="md:hidden flex items-center">
+                <button class="text-white p-2 rounded-md hover:bg-white/10 transition">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    <section id="inicio" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-primary">
+       <div class="absolute inset-0 z-0">
+    <div class="absolute inset-0 bg-gradient-to-b to-primary/90 z-10"></div>
+    
+    <img 
+        src="assets/img/models.jpg" 
+        alt="IN Models Hero" 
+        class="w-full h-full object-cover opacity-35"
+    >
+</div>
+        
+        <div class="relative z-10 text-center px-4 max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight">
+                Forjando el <span class="text-secondary">Futuro</span> de la Moda
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-10 font-light max-w-2xl mx-auto">
+                Formación profesional en modelaje y actuación con proyección internacional. Descubre tu potencial con nosotros.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#inscripcion" class="px-8 py-4 bg-white text-primary font-bold rounded-lg hover:bg-accent transition transform hover:scale-105">
+                    Comenzar ahora
+                </a>
+                <a href="#nosotros" class="px-8 py-4 border border-white/30 text-white font-bold rounded-lg hover:bg-white/10 transition">
+                    Ver programas
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="py-24 bg-gradient-to-b from-white to-gray-50 px-4 overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-20 relative">
+            <h2 class="text-3xl md:text-4xl font-light text-gray-800 mb-4 tracking-widest uppercase">Excelencia Académica</h2>
+            <div class="h-1 w-16 bg-secondary/40 mx-auto rounded-full"></div>
+            <div class="absolute -top-10 left-1/2 -translate-x-1/2 text-gray-100 text-8xl font-bold -z-10 select-none">AGENCIA</div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="p-10 rounded-[2.5rem] bg-white border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2 group">
+                <div class="w-16 h-16 bg-secondary/5 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-secondary transition-colors duration-500">
+                    <span class="text-3xl transform group-hover:scale-110 transition-transform">🎯</span>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-4 tracking-tight">Misión</h3>
+                <p class="text-gray-500 leading-relaxed font-light text-base">Formar talentos con disciplina, proyección y ética profesional en el medio artístico y del modelaje internacional.</p>
+            </div>
+
+            <div class="p-10 rounded-[2.5rem] bg-white border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2 group">
+                <div class="w-16 h-16 bg-secondary/5 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-secondary transition-colors duration-500">
+                    <span class="text-3xl transform group-hover:scale-110 transition-transform">👁️</span>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-4 tracking-tight">Visión</h3>
+                <p class="text-gray-500 leading-relaxed font-light text-base">Ser la agencia líder en Valledupar en la proyección de nuevos rostros en las pasarelas y pantallas más importantes del mundo.</p>
+            </div>
+
+            <div class="p-10 rounded-[2.5rem] bg-white border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2 group">
+                <div class="w-16 h-16 bg-secondary/5 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-secondary transition-colors duration-500">
+                    <span class="text-3xl transform group-hover:scale-110 transition-transform">🚀</span>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-4 tracking-tight">Objetivo</h3>
+                <p class="text-gray-500 leading-relaxed font-light text-base">Dominio técnico en pasarela, expresión corporal, lenguaje verbal y manejo de cámaras para un perfil competitivo y profesional.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="formacion" class="py-24 bg-[#0f0f14] text-white px-4">
+    <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-5xl font-extralight tracking-[0.2em] uppercase mb-6">Formación Artística</h2>
+            <p class="text-white/60 font-light tracking-wide italic">Entrenamientos presenciales en técnicas de modelaje profesional</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-4">
+                <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                    <div class="flex items-center gap-4">
+                        <span class="text-secondary font-bold text-xl">01</span>
+                        <span class="text-lg font-light tracking-widest uppercase">Pasarela Profesional</span>
+                    </div>
+                </div>
+                <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                    <div class="flex items-center gap-4">
+                        <span class="text-secondary font-bold text-xl">02</span>
+                        <span class="text-lg font-light tracking-widest uppercase">Expresión Corporal</span>
+                    </div>
+                </div>
+                   <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                    <div class="flex items-center gap-4">
+                        <span class="text-secondary font-bold text-xl">03</span>
+                        <span class="text-lg font-light tracking-widest uppercase">Vocabulario Verbal</span>
+                    </div>
+                </div>
+                <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                    <div class="flex items-center gap-4">
+                        <span class="text-secondary font-bold text-xl">04</span>
+                        <span class="text-lg font-light tracking-widest uppercase">Actuación</span>
+                    </div>
+                </div>
+                <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                    <div class="flex items-center gap-4">
+                        <span class="text-secondary font-bold text-xl">05</span>
+                        <span class="text-lg font-light tracking-widest uppercase">Fotopose</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-secondary/20 to-accent/10 p-8 rounded-3xl border border-white/10 backdrop-blur-md shadow-2xl">
+                <h4 class="text-2xl font-semibold mb-6 border-b border-white/10 pb-4">Detalles del Programa</h4>
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-secondary/30 p-2 rounded-lg text-secondary">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs uppercase text-gray-500 tracking-tighter">Sede Principal</p>
+                            <p class="text-xl">Valledupar, Colombia</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-secondary/30 p-2 rounded-lg text-secondary">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs uppercase text-gray-500 tracking-tighter">Días de Entrenamiento</p>
+                            <p class="text-xl">Sábados y Domingos - Parque Algarrobillos</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-secondary/30 p-2 rounded-lg text-secondary">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs uppercase text-gray-500 tracking-tighter">Horario</p>
+                            <p class="text-xl">3:00 PM - 4:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="galeria" class="py-24 bg-[#0a0a0f] overflow-hidden">
+    <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-5xl font-extralight tracking-[0.2em] uppercase text-white">Nuestra Agencia</h2>
+    </div>
+
+    <div class="relative flex overflow-x-hidden group">
+        <div class="flex animate-marquee whitespace-nowrap py-12">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-500" src="assets/img/model1.png" alt="Modelo 1">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-500" src="assets/img/model2.png" alt="Modelo 3">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-500" src="assets/img/model3.png" alt="Modelo 4">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-500" src="assets/img/model4.png" alt="Modelo 5">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-500" src="assets/img/model5.png" alt="Modelo 6">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-500" src="assets/img/model6.png" alt="Modelo 7">
+        </div>
+
+        <div class="flex absolute top-0 animate-marquee2 whitespace-nowrap py-12">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 shadow-2xl" src="assets/img/model7.png" alt="Modelo 1">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 shadow-2xl" src="assets/img/model8.png" alt="Modelo 2">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 shadow-2xl" src="assets/img/model9.png" alt="Modelo 3">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 shadow-2xl" src="assets/img/model10.png" alt="Modelo 4">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 shadow-2xl" src="assets/img/model11.png" alt="Modelo 5">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 shadow-2xl" src="assets/img/model12.png" alt="Modelo 6">
+            <img class="h-80 w-64 object-cover mx-4 rounded-2xl border border-white/10 shadow-2xl" src="assets/img/model13.png" alt="Modelo 7">
+        </div>
+    </div>
+
+    <style>
+        @keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-100%); }
+        }
+        @keyframes marquee2 {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(0%); }
+        }
+        .animate-marquee { animation: marquee 30s linear infinite; }
+        .animate-marquee2 { animation: marquee2 30s linear infinite; }
+        /* Pausar al pasar el mouse */
+        .group:hover .animate-marquee, 
+        .group:hover .animate-marquee2 { animation-play-state: paused; }
+    </style>
+</section>
+
+<section id="contacto" class="py-24 bg-white px-4">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-light text-gray-800 mb-4 tracking-widest uppercase">Ponte en Contacto</h2>
+            <div class="h-1 w-20 bg-secondary/30 mx-auto rounded-full"></div>
+        </div>
+
+       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+    <div class="space-y-8 p-8 rounded-[2.5rem] bg-gray-50 border border-gray-100 shadow-sm">
+        <div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-6">Información de Sede</h3>
+            <p class="text-gray-600 font-light leading-relaxed mb-8">
+                Visítanos en nuestra sede principal en Valledupar. Nuestro equipo estará encantado de asesorarte en tu carrera profesional.
+            </p>
+        </div>
+
+        <div class="space-y-4">
+            <div class="flex items-center p-3">
+                <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-2xl mr-4">
+                    📍
+                </div>
+                <div>
+                    <p class="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Ubicación</p>
+                    <p class="text-gray-700 font-medium">Valledupar, Cesar - Colombia</p>
+                </div>
+            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=573165134123" target="_blank" class="flex items-center p-3 rounded-2xl hover:bg-white hover:shadow-md transition-all duration-300 group border border-transparent hover:border-gray-100">
+                <div class="w-12 h-12 bg-[#25D366]/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-[#25D366] transition-colors">
+                    <svg class="w-6 h-6 fill-[#25D366] group-hover:fill-white transition-colors" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.29-4.115c1.53.912 3.041 1.393 4.549 1.395 5.463 0 9.899-4.436 9.9-9.899 0-2.646-1.03-5.132-2.903-7.005-1.871-1.871-4.358-2.901-7.004-2.901-5.463 0-9.897 4.436-9.9 9.9 0 2.012.551 3.864 1.589 5.405l-1.011 3.693 3.78-.993z"/></svg>
+                </div>
+                <div>
+                    <p class="text-[10px] text-gray-400 uppercase tracking-widest font-bold">WhatsApp</p>
+                    <p class="text-gray-700 font-medium">+57 316 513 4123</p>
+                </div>
+            </a>
+
+            <a href="https://www.instagram.com/inmodelsinternational/" target="_blank" class="flex items-center p-3 rounded-2xl hover:bg-white hover:shadow-md transition-all duration-300 group border border-transparent hover:border-gray-100">
+                <div class="w-12 h-12 bg-[#E1306C]/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-[#E1306C] transition-colors">
+                    <svg class="w-6 h-6 fill-[#E1306C] group-hover:fill-white transition-colors" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </div>
+                <div>
+                    <p class="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Instagram</p>
+                    <p class="text-gray-700 font-medium">@in_models_international</p>
+                </div>
+            </a>
+
+            <a href="https://www.facebook.com/share/1cEqS4zS9J/" target="_blank" class="flex items-center p-3 rounded-2xl hover:bg-white hover:shadow-md transition-all duration-300 group border border-transparent hover:border-gray-100">
+                <div class="w-12 h-12 bg-[#1877F2]/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-[#1877F2] transition-colors">
+                    <svg class="w-6 h-6 fill-[#1877F2] group-hover:fill-white transition-colors" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </div>
+                <div>
+                    <p class="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Facebook</p>
+                    <p class="text-gray-700 font-medium">In Models International</p>
+                </div>
+            </a>
+
+            <a href="https://www.tiktok.com/@inmodelsinternationalco" target="_blank" class="flex items-center p-3 rounded-2xl hover:bg-white hover:shadow-md transition-all duration-300 group border border-transparent hover:border-gray-100">
+                <div class="w-12 h-12 bg-black/5 rounded-xl flex items-center justify-center mr-4 group-hover:bg-black transition-colors">
+                    <svg class="w-6 h-6 fill-black group-hover:fill-white transition-colors" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.98-.23-2.81.33-.85.51-1.44 1.43-1.58 2.41-.01.01-.01.03-.01.04 0 .42 0 .84.01 1.26.1 1.15.82 2.16 1.83 2.68.85.43 1.86.51 2.78.22 1.12-.35 2.05-1.28 2.39-2.4.11-.38.15-.77.15-1.17.02-3.71.02-7.41.01-11.12z"/></svg>
+                </div>
+                <div>
+                    <p class="text-[10px] text-gray-400 uppercase tracking-widest font-bold">TikTok</p>
+                    <p class="text-gray-700 font-medium">@inmodelsinternationalco</p>
+                </div>
+            </a>
+
+            <a href="mailto:louis_882@hotmail.com" class="flex items-center p-3 rounded-2xl hover:bg-white hover:shadow-md transition-all duration-300 group border border-transparent hover:border-gray-100">
+                <div class="w-12 h-12 bg-[#EA4335]/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-[#EA4335] transition-colors">
+                    <svg class="w-6 h-6 fill-[#EA4335] group-hover:fill-white transition-colors" viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L12 9.573l8.073-6.08c1.618-1.214 3.927-.059 3.927 1.964z"/></svg>
+                </div>
+                <div>
+                    <p class="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Correo de Contacto</p>
+                    <p class="text-gray-700 font-medium">louis_882@hotmail.com</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="h-full min-h-[450px] w-full rounded-[2.5rem] overflow-hidden border border-gray-100 shadow-xl shadow-gray-200/50">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.4682390236024!2d-73.255!3d10.473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDI4JzIyLjgiTiA3M8KwMTUnMTguMCJX!5e0!3m2!1ses!2sco!4v1620000000000" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</div>
+    </div>
+</section>
+
+
+<section id="inscripcion" class="py-24 bg-gradient-to-br from-[#0f0f14] via-[#141420] to-[#1a1a2e] text-white px-4 relative overflow-hidden">
+    <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-5xl font-extralight tracking-[0.2em] uppercase mb-6">Inscripción Oficial</h2>
+        <p class="text-white/60 font-light tracking-wide">IN Models International</p>
+    </div>
+
+    <div id="selectorEdad" class="max-w-2xl mx-auto p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 text-center mb-10">
+        <h3 class="text-xl mb-6 font-light">Para comenzar, nos gustaria saber mas de ti:</h3>
+        <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <button onclick="configurarFormulario(true)" class="px-8 py-4 bg-white/10 hover:bg-secondary rounded-xl transition-all border border-white/20">Soy Mayor de Edad</button>
+            <button onclick="configurarFormulario(false)" class="px-8 py-4 bg-white/10 hover:bg-accent rounded-xl transition-all border border-white/20">Soy Menor de Edad</button>
+        </div>
+    </div>
+
+    <form id="modeloForm" class="hidden p-8 md:p-14 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_0_60px_rgba(0,0,0,0.6)] max-w-5xl mx-auto">
+        
+        <div class="mb-12">
+            <div class="flex items-center gap-3 mb-8">
+                <span class="bg-secondary w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                <h3 class="text-xl font-semibold text-white">Información del Modelo</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="md:col-span-2">
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Nombre Completo</label>
+                    <input type="text" name="nombres"  placeholder="Elkin Bermudez Pumarejo" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-secondary">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Documento Identidad</label>
+                    <input type="number" name="documento"  placeholder="" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Edad</label>
+                    <input type="number" name="edad"  placeholder="27" id="edadInput" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Fecha Nacimiento</label>
+                    <input type="date" name="fecha_nacimiento" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none text-gray-400">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Ciudad</label>
+                    <input type="text" name="ciudad" placeholder="Valleduapr" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                </div>
+                <div class="md:col-span-2">
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Dirección de Residencia</label>
+                    <input type="text" name="residencia" placeholder="Clle 18c Manzana 20 #24-72 Cortijos"  required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Teléfono Fijo (Opcional)</label>
+                    <input type="tel" name="fijo" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Celular / WhatsApp</label>
+                    <input type="tel" name="celular" required class="w-full bg-white/5 border border-secondary/50 rounded-xl px-4 py-3 outline-none">
+                </div>
+                <div class="md:col-span-2">
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Correo Electrónico</label>
+                    <input type="email" name="correo" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                </div>
+                <div class="md:col-span-3">
+                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Estudios Realizados</label>
+                    <input type="text" name="estudios"  placeholder="Bachillerato, Pregrado , Tecnologo, Corporacion" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                </div>
+            </div>
+
+            <div id="bloqueAcudiente" class="hidden mt-8 p-6 bg-accent/5 border border-accent/20 rounded-2xl">
+                <p class="text-accent font-bold text-sm mb-6 uppercase tracking-widest italic">Datos Obligatorios del Acudiente</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2 uppercase">Nombre del Acudiente</label>
+                        <input type="text" name="nomb_acudiente" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2 uppercase">Documento de Identidad (Acudiente)</label>
+                        <input type="number" name="documento_acudiente" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2 uppercase">Ocupación</label>
+                        <input type="text" name="ocupacion_acudiente" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2 uppercase">Teléfono de Contacto</label>
+                        <input type="tel" name="telefono_acudiente" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+         <div class="mb-12">
+                   <div class="flex items-center gap-3 mb-8">
+        <span class="bg-secondary w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">2</span>
+        <h3 class="text-xl font-semibold text-white">Medidas y Tallas</h3>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2">ESTATURA (CM)</label>
+                        <input type="number" name="estatura" placeholder="173" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:ring-2 focus:ring-secondary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2">CINTURA (CM) </label>
+                        <input type="number" name="medida_cintura" placeholder="48" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:ring-2 focus:ring-secondary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2">CABELLO (COLOR)</label>
+                        <input type="text" name="color_cabello" placeholder="Negro" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:ring-2 focus:ring-secondary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2">PANTALÓN (L, M ,S ,XL ,XS) </label>
+                        <input type="text" name="talla_pantalon" placeholder="L" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:ring-2 focus:ring-secondary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2">CALZADO (37 , 38 , ..43)</label>
+                        <input type="number" name="talla_calzado" placeholder="42" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:ring-2 focus:ring-secondary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2">BUSTO / PECHO (CM)</label>
+                        <input type="number" name="talla_bustos" placeholder="35"  class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:ring-2 focus:ring-secondary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2">COLOR OJOS</label>
+                        <input type="text" name="color_ojos" placeholder="Cafe" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:ring-2 focus:ring-secondary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-2">CADERA (CM)</label>
+                        <input type="number" name="talla_cadera" placeholder="38" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:ring-2 focus:ring-secondary focus:outline-none">
+                    </div>
+         </div>
+
+         </div>
+       <div class="mb-10">
+    <div class="flex items-center gap-3 mb-6">
+        <span class="bg-secondary w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">3</span>
+        <h3 class="text-xl font-semibold text-white">Autorización y Uso de Imagen</h3>
+    </div>
+
+    <div class="mb-8 p-6 bg-white/5 border border-white/10 rounded-2xl text-sm text-gray-300 leading-relaxed">
+        <p class="font-bold text-secondary mb-2 uppercase tracking-wider">AUTORIZACION USO DE IMAGEN:</p>
+        <p>AUTORIZACION REPRESENTANTE LEGAL PARA PARTICIPAR EN EVENTOS DE MODELAJE, ACTUACION EN LA EMPRESA <strong>IN MODELS INTERNATIONAL</strong>.</p>
+    </div>
+
+    
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div class="md:col-span-2">
+            <label class="block text-xs text-gray-500 mb-2 uppercase">Nombres y Apellidos Completos</label>
+            <input type="text" name="nombre_apellidos" placeholder="Nombre completo de quien autoriza" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-secondary">
+        </div>
+        
+        <div>
+            <label class="block text-xs text-gray-500 mb-2 uppercase">Documento de Identidad</label>
+            <input type="number" name="documento_acudiente" placeholder="Número de documento" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+        </div>
+
+        <div>
+            <label class="block text-xs text-gray-500 mb-2 uppercase">Ocupación</label>
+            <input type="text" name="ocupacion" placeholder="Profesión u oficio" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+        </div>
+
+        <div class="p-4 bg-white/5 rounded-2xl border border-white/5">
+            <label class="block text-xs text-accent mb-2 uppercase font-bold">Firma Digital Acudiente</label>
+            <input type="text" name="firma_acudiente" placeholder="Escriba su nombre como firma" required class="w-full bg-transparent border-b border-accent py-2 italic font-serif text-xl outline-none mb-4">
+            
+            <label class="block text-xs text-gray-500 mb-2 uppercase">C.C. (Cédula Acudiente)</label>
+            <input type="number" name="cedula_acudiente" placeholder="Número de C.C." required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 outline-none">
+        </div>
+
+        <div class="p-4 bg-white/5 rounded-2xl border border-white/5">
+            <label class="block text-xs text-accent mb-2 uppercase font-bold">Firma Digital Modelo</label>
+            <input type="text" name="firma_modelo" placeholder="Escriba su nombre como firma" required class="w-full bg-transparent border-b border-accent py-2 italic font-serif text-xl outline-none mb-4">
+            
+            <label class="block text-xs text-gray-500 mb-2 uppercase">T.I - C.C (Identificación Modelo)</label>
+            <input type="number" name="identificacion_modelo" placeholder="Número de T.I o C.C" required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 outline-none">
+        </div>
+    </div>
+
+    <div class="p-6 bg-secondary/10 border-2 border-secondary/30 rounded-2xl">
+        <label class="block text-sm font-bold text-secondary uppercase mb-4 text-center">Uso Exclusivo de la Agencia IN MODELS (Seleccione medio de ingreso)</label>
+        <div class="grid grid-cols-1 md:grid-cols-1 gap-4">
+            <select name="tipo_de_modelo" required class="w-full bg-[#1a1a2e] border-2 border-secondary rounded-xl px-4 py-4 text-white font-bold text-lg outline-none cursor-pointer hover:bg-secondary/20 transition-all">
+                <option value="">-- SELECCIONE UNA OPCIÓN DE INGRESO --</option>
+                <option value="CASTING">CASTING</option>
+                <option value="BECA">BECA</option>
+                <option value="50% BECA">50% BECA</option>
+                <option value="MENSUALIDAD">MENSUALIDAD</option>
+            </select>
+        </div>
+        <p class="text-[10px] text-gray-500 mt-3 text-center italic">Solo se permite una modalidad de ingreso por registro.</p>
+    </div>
+
+    </div>
+</div>
+
+        <button type="submit" class="w-full py-5 bg-secondary hover:bg-indigo-700 text-white font-bold rounded-2xl text-xl transition-all flex items-center justify-center gap-3">
+            POSTULARME
+        </button>
+    </form>
+</section>
+
+<script>
+function configurarFormulario(esMayor) {
+    const form = document.getElementById('modeloForm');
+    const selector = document.getElementById('selectorEdad');
+    const bloqueAcudiente = document.getElementById('bloqueAcudiente');
+    const edadInput = document.getElementById('edadInput'); // <--- AGREGAR ESTA LÍNEA
+    const camposAcudiente = bloqueAcudiente.querySelectorAll('input');
+
+    // Mostrar formulario y ocultar selector
+    form.classList.remove('hidden');
+    selector.classList.add('hidden');
+
+    if (esMayor) {
+        bloqueAcudiente.classList.add('hidden');
+        camposAcudiente.forEach(input => input.required = false);
+        edadInput.placeholder = "Ejem: 20";
+        edadInput.min = "18";
+    } else {
+        bloqueAcudiente.classList.remove('hidden');
+        camposAcudiente.forEach(input => input.required = true);
+        edadInput.placeholder = "Ejem: 15";
+        edadInput.max = "17";
+    }
+}
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwh2rNBPGT97STpTyzC0SuudNU0O0uLEHL-hGaObvBqhvJWHoEuR03uD27rzsdbVL29/exec';
+    const form = document.getElementById('modeloForm');
+    const btn = document.getElementById('btnEnviar');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        btn.disabled = true;
+        btn.innerText = "ENVIANDO DATOS...";
+        btn.classList.add('opacity-50', 'cursor-not-allowed');
+
+        const formData = new FormData(form);
+        const data = Object.fromEntries(formData.entries());
+
+        fetch(scriptURL, {
+            method: 'POST',
+            mode: 'no-cors', // Importante para Google Scripts
+            cache: 'no-cache',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        })
+        .then(() => {
+            alert('¡Inscripción enviada con éxito! IN MODELS INTERNATIONAL te contactará pronto.');
+            form.reset();
+            btn.disabled = false;
+            btn.innerText = "FINALIZAR E ENVIAR INSCRIPCIÓN";
+            btn.classList.remove('opacity-50', 'cursor-not-allowed');
+        })
+        .catch(error => {
+            console.error('Error!', error.message);
+            alert('Hubo un error al enviar. Por favor intenta de nuevo.');
+            btn.disabled = false;
+        });
+    });
+</script>
+
+    <footer class="bg-primary py-12 border-t border-white/5 text-center">
+        <p class="text-gray-500 text-sm">
+            © 2026 IN Models International. Todos los derechos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>
