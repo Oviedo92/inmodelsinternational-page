@@ -6,7 +6,9 @@
     <title>IN Models International | Agencia de Talentos</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <script>
         tailwind.config = {
@@ -32,6 +34,7 @@
         }
     </style>
 </head>
+
 <body class="bg-gray-50 font-sans text-gray-900">
 
 <nav class="fixed w-full z-50 top-0 bg-primary/90 backdrop-blur-md border-b border-white/10">
@@ -112,16 +115,16 @@
         </div>
     </section>
 
-    <section id="nosotros" class="py-24 bg-gradient-to-b from-white to-gray-50 px-4 overflow-hidden">
+ <section id="nosotros" class="py-24 bg-gradient-to-b from-white to-gray-50 px-4 overflow-hidden">
     <div class="max-w-7xl mx-auto">
-        <div class="text-center mb-20 relative">
+        <div class="text-center mb-20 relative" data-aos="fade-down">
             <h2 class="text-3xl md:text-4xl font-light text-gray-800 mb-4 tracking-widest uppercase">Excelencia Académica</h2>
             <div class="h-1 w-16 bg-secondary/40 mx-auto rounded-full"></div>
             <div class="absolute -top-10 left-1/2 -translate-x-1/2 text-gray-100 text-8xl font-bold -z-10 select-none">AGENCIA</div>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div class="p-10 rounded-[2.5rem] bg-white border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2 group">
+            <div data-aos="fade-up" data-aos-delay="100" class="p-10 rounded-[2.5rem] bg-white border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2 group">
                 <div class="w-16 h-16 bg-secondary/5 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-secondary transition-colors duration-500">
                     <span class="text-3xl transform group-hover:scale-110 transition-transform">🎯</span>
                 </div>
@@ -129,7 +132,7 @@
                 <p class="text-gray-500 leading-relaxed font-light text-base">Formar talentos con disciplina, proyección y ética profesional en el medio artístico y del modelaje internacional.</p>
             </div>
 
-            <div class="p-10 rounded-[2.5rem] bg-white border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2 group">
+            <div data-aos="fade-up" data-aos-delay="200" class="p-10 rounded-[2.5rem] bg-white border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2 group">
                 <div class="w-16 h-16 bg-secondary/5 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-secondary transition-colors duration-500">
                     <span class="text-3xl transform group-hover:scale-110 transition-transform">👁️</span>
                 </div>
@@ -137,7 +140,7 @@
                 <p class="text-gray-500 leading-relaxed font-light text-base">Ser la agencia líder en Valledupar en la proyección de nuevos rostros en las pasarelas y pantallas más importantes del mundo.</p>
             </div>
 
-            <div class="p-10 rounded-[2.5rem] bg-white border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2 group">
+            <div data-aos="fade-up" data-aos-delay="300" class="p-10 rounded-[2.5rem] bg-white border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2 group">
                 <div class="w-16 h-16 bg-secondary/5 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-secondary transition-colors duration-500">
                     <span class="text-3xl transform group-hover:scale-110 transition-transform">🚀</span>
                 </div>
@@ -148,40 +151,43 @@
     </div>
 </section>
 
-    <section id="formacion" class="py-24 bg-[#0f0f14] text-white px-4">
-    <div class="max-w-5xl mx-auto">
-        <div class="text-center mb-16">
+
+    <section id="formacion" class="py-24 bg-[#0f0f14] text-white px-4 overflow-hidden">
+    <div class="max-w-6xl mx-auto">
+        
+        <div class="text-center mb-16" data-aos="zoom-in">
             <h2 class="text-3xl md:text-5xl font-extralight tracking-[0.2em] uppercase mb-6">Formación Artística</h2>
             <p class="text-white/60 font-light tracking-wide italic">Entrenamientos presenciales en técnicas de modelaje profesional</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            
             <div class="space-y-4">
-                <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                <div data-aos="fade-right" data-aos-delay="100" class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
                     <div class="flex items-center gap-4">
                         <span class="text-secondary font-bold text-xl">01</span>
                         <span class="text-lg font-light tracking-widest uppercase">Pasarela Profesional</span>
                     </div>
                 </div>
-                <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                <div data-aos="fade-right" data-aos-delay="200" class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
                     <div class="flex items-center gap-4">
                         <span class="text-secondary font-bold text-xl">02</span>
                         <span class="text-lg font-light tracking-widest uppercase">Expresión Corporal</span>
                     </div>
                 </div>
-                   <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                <div data-aos="fade-right" data-aos-delay="300" class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
                     <div class="flex items-center gap-4">
                         <span class="text-secondary font-bold text-xl">03</span>
                         <span class="text-lg font-light tracking-widest uppercase">Vocabulario Verbal</span>
                     </div>
                 </div>
-                <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                <div data-aos="fade-right" data-aos-delay="400" class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
                     <div class="flex items-center gap-4">
                         <span class="text-secondary font-bold text-xl">04</span>
                         <span class="text-lg font-light tracking-widest uppercase">Actuación</span>
                     </div>
                 </div>
-                <div class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
+                <div data-aos="fade-right" data-aos-delay="500" class="group bg-white/5 border border-white/10 p-4 rounded-2xl hover:bg-secondary/20 transition-all duration-500">
                     <div class="flex items-center gap-4">
                         <span class="text-secondary font-bold text-xl">05</span>
                         <span class="text-lg font-light tracking-widest uppercase">Fotopose</span>
@@ -189,37 +195,74 @@
                 </div>
             </div>
 
-            <div class="bg-gradient-to-br from-secondary/20 to-accent/10 p-8 rounded-3xl border border-white/10 backdrop-blur-md shadow-2xl">
-                <h4 class="text-2xl font-semibold mb-6 border-b border-white/10 pb-4">Detalles del Programa</h4>
-                <div class="space-y-6">
-                    <div class="flex items-start gap-4">
-                        <div class="bg-secondary/30 p-2 rounded-lg text-secondary">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <div class="flex flex-col gap-8">
+                
+                <div data-aos="fade-left" data-aos-delay="300" class="bg-gradient-to-br from-secondary/20 to-accent/10 p-8 rounded-3xl border border-white/10 backdrop-blur-md shadow-2xl hover:-translate-y-1 transition-transform duration-500">
+                    <h4 class="text-2xl font-semibold mb-6 border-b border-white/10 pb-4">Detalles del Programa</h4>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-secondary/30 p-2 rounded-lg text-secondary">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            </div>
+                            <div>
+                                <p class="text-xs uppercase text-gray-500 tracking-tighter">Sede Principal</p>
+                                <p class="text-xl">Valledupar, Colombia</p>
+                            </div>
                         </div>
-                        <div>
-                            <p class="text-xs uppercase text-gray-500 tracking-tighter">Sede Principal</p>
-                            <p class="text-xl">Valledupar, Colombia</p>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-secondary/30 p-2 rounded-lg text-secondary">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                            </div>
+                            <div>
+                                <p class="text-xs uppercase text-gray-500 tracking-tighter">Días de Entrenamiento</p>
+                                <p class="text-xl">Contactanos para mas información</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="flex items-start gap-4">
-                        <div class="bg-secondary/30 p-2 rounded-lg text-secondary">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        </div>
-                        <div>
-                            <p class="text-xs uppercase text-gray-500 tracking-tighter">Días de Entrenamiento</p>
-                            <p class="text-xl">Sábados y Domingos - Parque Algarrobillos</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-4">
-                        <div class="bg-secondary/30 p-2 rounded-lg text-secondary">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                        </div>
-                        <div>
-                            <p class="text-xs uppercase text-gray-500 tracking-tighter">Horario</p>
-                            <p class="text-xl">3:00 PM - 4:30 PM</p>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-secondary/30 p-2 rounded-lg text-secondary">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            </div>
+                            <div>
+                                <p class="text-xs uppercase text-gray-500 tracking-tighter">Horario</p>
+                                <p class="text-xl"> 2hr- Horario PM</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div data-aos="fade-left" data-aos-delay="500" class="bg-gradient-to-br from-indigo-500/20 to-purple-500/10 p-8 rounded-3xl border border-white/10 backdrop-blur-md shadow-2xl hover:-translate-y-1 transition-transform duration-500">
+                    <h4 class="text-2xl font-semibold mb-6 border-b border-white/10 pb-4">Detalles del Programa</h4>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-indigo-400/30 p-2 rounded-lg text-indigo-400">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            </div>
+                            <div>
+                                <p class="text-xs uppercase text-gray-500 tracking-tighter">Sede Principal</p>
+                                <p class="text-xl">Santuario, Medellin</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-indigo-400/30 p-2 rounded-lg text-indigo-400">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                            </div>
+                            <div>
+                                <p class="text-xs uppercase text-gray-500 tracking-tighter">Días de Entrenamiento</p>
+                                <p class="text-xl">Contactanos par mas información</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-indigo-400/30 p-2 rounded-lg text-indigo-400">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            </div>
+                            <div>
+                                <p class="text-xs uppercase text-gray-500 tracking-tighter">Horario</p>
+                                <p class="text-xl"> 2hr- Horario PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -402,10 +445,17 @@
                     <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Fecha Nacimiento</label>
                     <input type="date" name="fecha_nacimiento" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none text-gray-400">
                 </div>
-                <div>
-                    <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Ciudad</label>
-                    <input type="text" name="ciudad" placeholder="Valleduapr" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+
+               <div>
+                <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Sede a la que aplicas</label>
+                    <select name="ciudad" required 
+                        class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none text-white appearance-none focus:border-secondary transition-all cursor-pointer">
+                    <option value="" disabled selected class="bg-primary">Seleccionar Sede</option>
+                    <option value="Valledupar" class="bg-primary text-white">Valledupar - Cesar</option>
+                    <option value="Medellín" class="bg-primary text-white">Santuario - Medellín</option>
+                </select>
                 </div>
+            
                 <div class="md:col-span-2">
                     <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Dirección de Residencia</label>
                     <input type="text" name="residencia" placeholder="Clle 18c Manzana 20 #24-72 Cortijos"  required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
@@ -424,7 +474,7 @@
                 </div>
                 <div class="md:col-span-3">
                     <label class="block text-xs uppercase tracking-widest text-gray-400 mb-2">Estudios Realizados</label>
-                    <input type="text" name="estudios"  placeholder="Bachillerato, Pregrado , Tecnologo, Corporacion" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
+                    <input type="text" name="estudios"  placeholder="Bachillerato, Pregrado , Tecnologo, Corporacion, Universitario" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none">
                 </div>
             </div>
 
@@ -560,7 +610,7 @@
     </div>
 </div>
 
-        <button type="submit" class="w-full py-5 bg-secondary hover:bg-indigo-700 text-white font-bold rounded-2xl text-xl transition-all flex items-center justify-center gap-3">
+        <button type="submit" id="btnEnviar" class="w-full py-5 bg-secondary hover:bg-indigo-700 text-white font-bold rounded-2xl text-xl transition-all flex items-center justify-center gap-3">
             POSTULARME
         </button>
     </form>
@@ -627,6 +677,15 @@ function configurarFormulario(esMayor) {
         });
     });
 </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // Duración de 1 segundo (se ve elegante)
+        once: true,     // Ponlo en 'true' para que solo se anime una vez, es más profesional
+        offset: 100     // Empieza a animar un poco antes de llegar a la sección
+      });
+    </script>
 
     <footer class="bg-primary py-12 border-t border-white/5 text-center">
         <p class="text-gray-500 text-sm">
